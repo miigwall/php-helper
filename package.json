@@ -1,0 +1,24 @@
+{
+  "name": "php-helper",
+  "main": "./lib/php-helper",
+  "version": "0.0.2",
+  "description": "Some useful PHP snippets and converters",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": [
+       "php-helper:gen_nco_post"
+      ,"php-helper:get_nco_get"
+      ,"php-helper:gen_nco_request"
+      ,"php-helper:get_class_variables"
+      ,"php-helper:get_constructor"
+    ]
+  },
+  "repository": "https://github.com/atom/php-helper",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "PHP Helpers",
+        "submenu": [
+         {
+           "label": "Generate POST null coalescing operators",
+           "command": "php-helper:gen_nco_post"
+         },
+         {
+           "label": "Generate GET null coalescing operators",
+           "command": "php-helper:get_nco_get"
+         },
+         {
+           "label": "Generate REQUEST null coalescing operators",
+           "command": "php-helper:gen_nco_request"
+         },
+         {
+           "label": "Generate CLASS variables",
+           "command": "php-helper:get_class_variables"
+         },
+         {
+           "label": "Generate CLASS constructor",
+           "command": "php-helper:get_constructor"
+         }
+        ]
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "PHP Helpers",
+          "submenu": [
+            {
+               "label": "Generate POST null coalescing operators",
+               "command": "php-helper:gen_nco_post"
+            },
+            {
+               "label": "Generate GET null coalescing operators",
+               "command": "php-helper:get_nco_get"
+            },
+            {
+              "label": "Generate REQUEST null coalescing operators",
+              "command": "php-helper:gen_nco_request"
+            },
+            {
+              "label": "Generate CLASS variables",
+              "command": "php-helper:get_class_variables"
+            },
+            {
+              "label": "Generate CLASS constructor",
+              "command": "php-helper:get_constructor"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
